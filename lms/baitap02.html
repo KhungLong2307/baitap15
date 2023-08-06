@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Temperature Conveter</h2>
+    <p>Type a value in the Fahrenheit field to convert the value to Celcius</p>
+    <p>
+        <label for="inputTemp">Fahrenheit</label>
+        <input type="number" name="inputTemp" id="inputTemp" placeholder="0" oninput="tempChange(this.value)" onchange="tempChange(this.value)">
+    </p>
+    <p>Celcius:<span id="outTemp"></span></p>
+    <script src="./baitap02.js"></script>
+</body>
+</html>
